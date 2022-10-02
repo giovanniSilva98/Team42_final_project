@@ -1,16 +1,25 @@
 # Project title: Star visualizer – from "Team 42"
 
 ## High level project summary: 
-The aim of this webapp is to allow the player to create its own star by inserting only two simple inputs: the dimension and the luminosity with respect to the Sun. By the knowledge of this information and using a mathematical, statistical, and graphical approach, such as the position and evolution on the Hertzsprung-Russell diagram and studied stars’ light curve, it’s possible to see the star twinkling and its eventual end of life, through the use of simplified but attracting sequence of images. 
+The idea is to develop a webapp with "Plotly Dash - python" to allow the user to create its own star by inserting only two simple inputs: 
+- relative dimensions with respect to sun (R/R0)
+- relative luminosity (L/L0). 
 
-Link to final project:
-Link to project demo:
+By the knowledge of this information and using a mathematical, statistical, and graphical approach, such as the position and evolution on the Hertzsprung-Russell diagram and studied stars’ light curve, the dash App allows to see the star twinkle and its eventual end of life, through the use of simplified but attracting sequence of images and animation generated according to input data.
 
-Detailed project description: 
+
+## Detailed project description: 
 The webapp is divided in three pages: 
 -	In the main page the user will introduce as input two parameters of the star he wants to create (radius and luminosity with respect to the Sun to give a clearer idea to the user about this values), the star will be represented on the HR diagram, in order to show where it’s positioned with respect to other known stars. According to the statistical, mathematical and graphical approach, useful and user-friendly tools will show the temperature, size, color class of the star and, connected to that, the name of the star category.
+![initial](layout/Layout1.jpg)
+
 -	In the second page, it will be shown at first a catchy video that shows the twinkle of the star, following a graph of easy comprehension that show the luminosity variation in time, also allowing the user to see the periodicity of this luminosity change. At this point, the player will be able to select the end of life of the star: this will start a short animation that describe all the phases of star evolution according to the initial mass, and also the path that the star follows on the HR diagram.
+
+![initial](layout/Layout2.jpg)
+![initial](layout/Layout3.jpg)
 -	In the last page, there is a list of locked achievements that will be unlocked when the user “discovers” a new star type, based on the initial parameter selected. The achievements will show not only the name of the star and a catchy image, but also a short description of it in order to improve the knowledge of the existing types of stars. The presence of achievements is also a useful way to make the webapp more and more reusable, introducing in the player the curiosity on all the implemented stars, with the aim to “catch them all”.
+![initial](layout/Layout4.jpg)
+
 The aim of the project is not to be an academic tool, but it’s made with the aim to increase curiosity of the majority of the public about the star variability topic and to make the public conscious about the evolution of it up to the end of life. The hope is that this simplified tool will encourage people more and more of this argument in order to enter in the already big space community.
 The user can retrieve information about graphs and data (e.g. what an HR diagram is) through different info box placed in strategic points into the app.
 The tools used to develop the webapp were Python and CSS for the coding and graphical part of the app, while Matlab was used for the preliminary data analysis.
