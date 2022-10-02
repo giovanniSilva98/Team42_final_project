@@ -1,0 +1,16 @@
+% Caso 7 : RRC
+% Luminosità dell'utente --> Ricavi Mv
+% Una volta che abbiamo Mv: S=S+Mv
+% Periodo: pulsazione 0.3 gg
+
+% L'input è Mv
+Mv=20;
+
+P=0.3*86400;
+T_rot=8.5*24*3600;
+w=2*pi/(T_rot);
+t=linspace(0,T_rot,200);
+
+S=0.5*sin(w*t);
+S=S+Mv
+plot(t,S);
