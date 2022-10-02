@@ -11,7 +11,7 @@ By the knowledge of this information and using a mathematical, statistical, and 
 ## Detailed project description: 
 The webapp is divided in three pages: 
 -	In the main page the user will introduce as input two parameters of the star he wants to create (radius and luminosity with respect to the Sun to give a clearer idea to the user about this values), the star will be represented on the HR diagram, in order to show where it’s positioned with respect to other known stars. According to the statistical, mathematical and graphical approach, useful and user-friendly tools will show the temperature, size, color class of the star and, connected to that, the name of the star category.
-![initial](layout/Layout1.jpg)
+[http://url/to/img.png](https://github.com/giovanniSilva98/Team42_final_project/blob/main/layout/Layout1.jpeg))
 
 -	In the second page, it will be shown at first a catchy video that shows the twinkle of the star, following a graph of easy comprehension that show the luminosity variation in time, also allowing the user to see the periodicity of this luminosity change. At this point, the player will be able to select the end of life of the star: this will start a short animation that describe all the phases of star evolution according to the initial mass, and also the path that the star follows on the HR diagram.
 
