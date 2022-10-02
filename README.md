@@ -3,28 +3,38 @@
 ## High level project summary: 
 The idea is to develop a webapp with "Plotly Dash - python" to allow the user to create its own star by inserting only two simple inputs: 
 - relative dimensions with respect to sun (R/R0)
-- relative luminosity (L/L0). 
+- relative luminosity (L/L0)
 
 By the knowledge of this information and using a mathematical, statistical, and graphical approach, such as the position and evolution on the Hertzsprung-Russell diagram and studied stars’ light curve, the dash App allows to see the star twinkle and its eventual end of life, through the use of simplified but attracting sequence of images and animation generated according to input data.
 
 
 ## Detailed project description: 
-The webapp is divided in three pages: 
--	In the main page the user will introduce as input two parameters of the star he wants to create (radius and luminosity with respect to the Sun to give a clearer idea to the user about this values), the star will be represented on the HR diagram, in order to show where it’s positioned with respect to other known stars. According to the statistical, mathematical and graphical approach, useful and user-friendly tools will show the temperature, size, color class of the star and, connected to that, the name of the star category.
-[http://url/to/img.png](https://github.com/giovanniSilva98/Team42_final_project/blob/main/layout/Layout1.jpeg))
+## LAYOUT-page1: input data and HR diagram
+![Layout1](https://user-images.githubusercontent.com/108433911/193459318-12e1186d-2349-4ad9-8204-4194adc3e3f6.jpeg)
 
--	In the second page, it will be shown at first a catchy video that shows the twinkle of the star, following a graph of easy comprehension that show the luminosity variation in time, also allowing the user to see the periodicity of this luminosity change. At this point, the player will be able to select the end of life of the star: this will start a short animation that describe all the phases of star evolution according to the initial mass, and also the path that the star follows on the HR diagram.
+-	In the main page the user will introduce two input parameters of the star he wants to create (radius and luminosity with respect to the Sun to give a clearer idea to the user about this values), the star position will be plotted on the HR diagram, in order to show where it’s positioned with respect to other known stars. According to the statistical, mathematical and graphical approach, useful and user-friendly tools will show the temperature, size, colour class of the star and, connected to that, the name of the star category.
 
-![initial](layout/Layout2.jpg)
-![initial](layout/Layout3.jpg)
--	In the last page, there is a list of locked achievements that will be unlocked when the user “discovers” a new star type, based on the initial parameter selected. The achievements will show not only the name of the star and a catchy image, but also a short description of it in order to improve the knowledge of the existing types of stars. The presence of achievements is also a useful way to make the webapp more and more reusable, introducing in the player the curiosity on all the implemented stars, with the aim to “catch them all”.
-![initial](layout/Layout4.jpg)
+## LAYOUT-page2: short term variability
+![Layout3](https://user-images.githubusercontent.com/108433911/193459361-b78985a1-1b32-44c6-992a-008833baa036.jpeg)
 
+-	In the second page, will be created according to input data a catchy animation that shows the twinkle of the star, following the position of the red dot on the graph on the right making easy to understand that luminosity is varying in time, as well as allowing the user to see the periodicity of this luminosity change.
+
+## LAYOUT-page2: long term variability & catastrophic events
+![Layout2](https://user-images.githubusercontent.com/108433911/193459344-5e86b8ce-206c-4091-aa5d-adfcca4c7a2b.jpeg)
+
+- In page 2 after clicking the button "end my star" the player will be able to observe the end of life of the star: this will start a short animation that describe all the phases of star evolution with some informative comments, as scientifically accurate as possible taking into account the initial mass, and also the path that the star follows on the HR diagram
+
+## LAYOUT-page3: achievements
+![Layout4](https://user-images.githubusercontent.com/108433911/193459370-7ff6d940-58cd-44a5-b03e-bfbcf758a72b.jpeg)
+
+-	In the last page, there is a list of locked achievements that will be unlocked when the user “discovers” a new star type, if the correct parameters are selected in the initial page. The achievements will show not only the name of the star and a catchy icon, but also a short description of it in order to increase the knowledge of the user on the existing types of stars. The presence of achievements is also a useful way to make the webapp more stimulating, introducing in the player the curiosity on all the implemented stars, with the aim to “catch them all”.
+
+## Final remarks & future devlìelopments
 The aim of the project is not to be an academic tool, but it’s made with the aim to increase curiosity of the majority of the public about the star variability topic and to make the public conscious about the evolution of it up to the end of life. The hope is that this simplified tool will encourage people more and more of this argument in order to enter in the already big space community.
 The user can retrieve information about graphs and data (e.g. what an HR diagram is) through different info box placed in strategic points into the app.
 The tools used to develop the webapp were Python and CSS for the coding and graphical part of the app, while Matlab was used for the preliminary data analysis.
 
-Space agency data:  
+## Space agency data:  
 The following space agency sources were consulted during the hackathon journey:
 1)	https://gea.esac.esa.int/archive/documentation/GEDR3/Data_processing/chap_simulated/sec_cu2UM/ssec_cu2_variab.html
 2)	https://starchild.gsfc.nasa.gov/docs/StarChild/questions/cepheids.html 
@@ -34,7 +44,7 @@ The following space agency sources were consulted during the hackathon journey:
 
 The space agency data were used to gain information about how the variability and luminosity of a star is measured and studied and data about variability and luminosity of the many different kind of star analyzed in the webapp.
 
-References: 
+## References: 
 Sources:
 1)	https://www.cosmos.esa.int/web/hipparcos/java-tools/light-curve 
 2)	https://ui.adsabs.harvard.edu/abs/2002PASP..114..689W/abstract 
@@ -49,14 +59,12 @@ Sources:
 11)	M. J. Ireland et al. “Pulsation of M-type Mira variables with moderately different mass: search for observable mass effects”, Monthly Notices of the Royal Astronomical Society, Volume 355, Issue 2, December 2004, Pages 444–450 
 12)	https://mast.stsci.edu/portal/Mashup/Clients/Mast/Portal.html 
 13)	https://gea.esac.esa.int/archive/documentation/GEDR3/Data_processing/chap_simulated/sec_cu2UM/ssec_cu2_variab.html 
-Tools:
--	Matlab ®
+
+## Tools:
+-	Plotly Dash - ptyhon 
+-	Figma
+-	Github
 -	Python ®
 -	CSS
-
-Hackathon journey: 
-
-
-Tags: #Star #Twinkle #Variablestars #Variablestar #WebApp #EndOfLife #HRDiagram #Mainsequence #Sun #Space 
 
 
